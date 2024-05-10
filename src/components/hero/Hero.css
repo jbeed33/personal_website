@@ -15,31 +15,46 @@
 #hero-text-wrapper {
   width: 99%;
   position: absolute;
-  top: 27vh;
+  top: 20vh;
   z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .hero-text {
   z-index: 20;
   color: var(--white);
   font-weight: 300;
-  margin-bottom: 40px;
-  text-align: center;
+  margin-bottom: 80px;
+  font-size: 2.5rem;
 }
 
 .hero-text:first-child {
-  width: 10em;
+  max-width: 10em;
 }
 
 #hero-lg-text {
-  font-size: 7rem;
+  font-size: 8.5rem;
 }
 
 .hero-hilight-text {
   color: var(--dark-blue);
   font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  #hero-lg-text {
+    font-size: 5rem;
+  }
+
+  .hero-text {
+    z-index: 20;
+    color: var(--white);
+    font-weight: 300;
+    margin-bottom: 80px;
+    font-size: 2rem;
+  }
 }

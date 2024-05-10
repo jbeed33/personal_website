@@ -6,27 +6,27 @@ function Navbar() {
       <div id="nav-wrapper">
         <ul id="nav-container">
           <li>
-            <a href="#" class="nav-link">
+            <a href="#" className="nav-link">
               About Me
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link">
+            <a href="#" className="nav-link">
               Projects
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link">
+            <a href="#" className="nav-link">
               Skills
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link">
+            <a href="#" className="nav-link">
               Experience
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link">
+            <a href="#" className="nav-link">
               Contact
             </a>
           </li>
