@@ -1,9 +1,12 @@
 import React from "react";
+import { CiMenuBurger } from "react-icons/ci";
+
 import "./Navbar.css";
 function Navbar() {
   return (
     <nav>
       <div id="nav-wrapper">
+        <CiMenuBurger id="nav-hamburger" />
         <ul id="nav-container">
           <li>
             <a href="#" className="nav-link">
