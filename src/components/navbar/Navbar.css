@@ -1,0 +1,35 @@
+#nav-wrapper {
+  position: absolute;
+  top: 40px;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+}
+#nav-container {
+  position: relative;
+  width: 80vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  z-index: 10;
+}
+
+.nav-link {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.nav-link:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(153, 224, 255, 1) 0%,
+    rgba(0, 178, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
