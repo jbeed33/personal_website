@@ -27,8 +27,8 @@
 .nav-link:hover {
   background: linear-gradient(
     90deg,
-    rgba(153, 224, 255, 1) 0%,
-    rgba(0, 178, 255, 1) 83%
+    var(--light-blue) 0%,
+    var(--dark-blue) 83%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -9,4 +9,37 @@
   height: 100vh;
   object-fit: cover;
   filter: brightness(50%);
+  z-index: 0;
+}
+
+#hero-text-wrapper {
+  width: 99%;
+  position: absolute;
+  top: 27vh;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  z-index: 20;
+  color: var(--white);
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.hero-text:first-child {
+  width: 10em;
+}
+
+#hero-lg-text {
+  font-size: 7rem;
+}
+
+.hero-hilight-text {
+  color: var(--dark-blue);
+  font-weight: bold;
 }
