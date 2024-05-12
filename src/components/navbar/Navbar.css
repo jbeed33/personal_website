@@ -42,17 +42,68 @@
   font-size: 1.8rem;
 }
 
+#hamburger-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 80%;
+  height: 100vh;
+  color: white;
+  z-index: 20;
+}
+
+#close-button {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
+  #close-button.hamburger-active {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    display: block;
+    color: white;
+    font-size: 2rem;
+  }
+
   #nav-container {
     display: none;
+  }
+
+  #nav-wrapper.hamburger-active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.398);
+    height: 100vh;
+    z-index: 30;
+  }
+
+  #nav-container.hamburger-active {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+    width: 80%;
+    justify-content: space-around;
   }
 
   #nav-hamburger {
     display: block;
     position: absolute;
     left: 10vw;
+    top: 3vh;
     z-index: 10;
-    color: var(--white);
-    font-size: 3rem;
+    color: var(--dark-blue);
+    font-size: 4rem;
+  }
+
+  #nav-hamburger.hamburger-active {
+    display: none;
   }
 }
