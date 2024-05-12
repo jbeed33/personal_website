@@ -16,3 +16,23 @@
   font-size: 3rem;
   font-weight: 800;
 }
+
+@media screen and (max-width: 700px) {
+  .title-background {
+    text-align: center;
+  }
+
+  .title-foreground {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title-background {
+    display: none;
+  }
+
+  .title-foreground {
+    margin-top: 5em;
+  }
+}
