@@ -1,0 +1,18 @@
+.title-container {
+  margin: 5em;
+}
+
+.title-background {
+  color: var(--grey);
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.title-foreground {
+  position: relative;
+  top: -73px;
+  left: 5px;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 800;
+}
