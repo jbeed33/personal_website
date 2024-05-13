@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
+import { Link } from "react-scroll";
 
 import "./Navbar.css";
 function Navbar() {
@@ -34,9 +35,15 @@ function Navbar() {
               X
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <Link
+                to="about"
+                smooth={true}
+                duration={1000}
+                offset={-50}
+                className="nav-link"
+              >
                 About Me
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#" className="nav-link">

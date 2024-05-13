@@ -5,7 +5,7 @@ import "./About.css";
 
 function About() {
   return (
-    <>
+    <section id="about">
       <Title title="About Me" />
       <div id="about-quote-wrapper">
         {" "}
@@ -23,7 +23,7 @@ function About() {
       <a id="about-resume" target="_blank" href="computer_science_resume.pdf">
         Resume
       </a>
-    </>
+    </section>
   );
 }
 
