@@ -15,11 +15,14 @@ function About() {
         </p>
       </div>
       <div id="about-info-wrapper">
-        <InfoList number="1" />
+        <InfoList />
         <div id="about-image-wrapper">
           <img src="images/SitImage.jpg" alt="Joshua sitting and smiling" />
         </div>
       </div>
+      <a id="about-resume" target="_blank" href="computer_science_resume.pdf">
+        Resume
+      </a>
     </>
   );
 }

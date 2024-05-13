@@ -16,12 +16,19 @@ function InfoList(props) {
 
       <div className="info-wrapper">
         <div className="info-number">2</div>
-        <p>This is information div. has some information in it.</p>
+        <p>
+          Currently studying Computer Science at University of California
+          Riverside. Expecting to graduate next year.
+        </p>
       </div>
 
       <div className="info-wrapper">
         <div className="info-number">3</div>
-        <p>This is information div. has some information in it.</p>
+        <p>
+          I hold authenticity and honesty as core values in my personal life and
+          as well as work. I enjoy writing poetry and having deep conversations
+          with my peers and family.
+        </p>
       </div>
     </div>
   );

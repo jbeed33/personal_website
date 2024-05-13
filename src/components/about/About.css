@@ -45,6 +45,21 @@
   filter: grayscale(1);
 }
 
+#about-resume {
+  display: flex;
+  justify-content: center;
+  color: var(--medium-blue);
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 100%;
+  margin: 50px 0px;
+  text-decoration: none;
+}
+
+#about-resume:hover {
+  color: var(--dark-blue);
+}
+
 @media screen and (max-width: 1400px) {
   #about-image-wrapper {
     height: 1000px;
