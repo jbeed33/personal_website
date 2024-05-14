@@ -6,7 +6,7 @@ import "./Project.css";
 
 function Project() {
   return (
-    <section>
+    <section id="project">
       <Title title="Projects" />
 
       <div id="project-card-list">
