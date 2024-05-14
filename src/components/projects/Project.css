@@ -1,0 +1,10 @@
+#project-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* border: 5px solid red; */
+  margin: 20px auto;
+}
