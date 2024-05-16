@@ -13,27 +13,23 @@ function Project() {
         <ProjectCard
           image="images/priority.png"
           title="Priority app"
-          description="An application to help a person become
-          more organized. An application to help a person become more organized."
+          description="An fullstack application to help a person become
+          more organized."
           link="https://github.com/jbeed33/priorityApp"
         />
         <ProjectCard
-          image="images/priority.png"
-          title="Priority app"
-          description="An application to help a person become
-          more organized. An application to help a person become more organized."
+          image="images/shop.png"
+          title="Shop It Up"
+          description="An fullstack ecommerce platform that allows users to create sharable carts."
+          position={{ x: 0, y: 1 }}
+          link="https://github.com/alvin-vo/Shop-It-Up"
         />
         <ProjectCard
-          image="images/priority.png"
-          title="Priority app"
-          description="An application to help a person become
-          more organized. An application to help a person become more organized."
-        />
-        <ProjectCard
-          image="images/priority.png"
-          title="Priority app"
-          description="An application to help a person become
-          more organized. An application to help a person become more organized."
+          image="images/tutors.png"
+          title="UC Tutor"
+          description="A fullstack application that supports higher education and the ability to easily find help from peers."
+          position={{ x: 0, y: 1 }}
+          link="https://github.com/jbeed33/cs110_project"
         />
       </div>
     </section>

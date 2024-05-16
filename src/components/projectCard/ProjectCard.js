@@ -2,9 +2,14 @@ import React from "react";
 import "./ProjectCard.css";
 
 function ProjectCard(props) {
+  const positionStyle = props.position
+    ? { objectPosition: `${props.position.x}% ${props.position.y}%` }
+    : {};
+
+  console.log(props);
   return (
     <div className="project-card">
-      <img src={props.image} />
+      <img style={positionStyle} src={props.image} />
 
       <div className="project-card-overlay">
         <h1 className="project-card-overlay-title">{props.title}</h1>
