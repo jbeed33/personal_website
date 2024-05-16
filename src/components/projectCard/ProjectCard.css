@@ -1,7 +1,8 @@
 .project-card {
   position: relative;
   width: 95%;
-  height: 450px;
+  max-width: 1000px;
+  max-height: 450px;
   color: var(--white);
   border-radius: 1em;
   overflow: hidden;
@@ -95,7 +96,10 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .project-card {
+    width: 120%;
+  }
   .project-card-overlay-title {
     font-size: 2.5rem;
   }
