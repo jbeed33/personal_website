@@ -79,15 +79,24 @@
   #about-image-wrapper {
     right: -30%;
   }
+
+  #about-resume {
+    margin: 200px auto;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  #about {
+    margin-bottom: 400px;
+  }
+
   #about-quote {
     font-size: 2.5rem;
   }
 
   #about-image-wrapper {
     width: 80%;
+    height: 400px;
     right: -10%;
   }
 }

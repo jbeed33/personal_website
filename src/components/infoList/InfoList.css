@@ -97,7 +97,8 @@
 
 @media screen and (max-width: 700px) {
   #infos-container {
-    top: 80px;
+    position: relative;
+    align-items: center;
   }
   .info-wrapper {
     flex-direction: column;
@@ -106,11 +107,7 @@
   }
 
   .info-wrapper p {
-    text-align: center;
-    width: 110%;
-  }
-
-  .info-number {
-    display: none;
+    text-align: start;
+    width: 100%;
   }
 }

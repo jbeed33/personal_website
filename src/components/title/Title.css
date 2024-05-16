@@ -20,6 +20,7 @@
 @media screen and (max-width: 700px) {
   .title-background {
     text-align: center;
+    font-size: 4rem;
   }
 
   .title-foreground {
