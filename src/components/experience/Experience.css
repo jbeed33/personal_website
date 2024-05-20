@@ -1,6 +1,6 @@
 #experience-container {
   position: relative;
-  margin: auto;
+  margin: 4em auto;
   width: 90vw;
 }
 
@@ -11,6 +11,14 @@
   padding-top: 2em;
   padding-bottom: 2em;
   position: relative;
+
+  animation: growFromTop linear;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range-start: 50px;
+  animation-range-end: 200px;
+
+  opacity: 0;
 }
 
 .experience-checkpoint div {
@@ -132,5 +140,14 @@
   .experience-checkpoint:last-child div::before,
   .experience-checkpoint:last-child div::before {
     display: none;
+  }
+}
+
+@keyframes growFromTop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -6,15 +6,25 @@
   color: var(--grey);
   font-size: 6rem;
   font-weight: 800;
+  animation: fadeInFromLeft linear;
+  animation-timeline: view();
+  animation-range-start: 1px;
+  animation-range-end: 400px;
 }
 
 .title-foreground {
+  width: fit-content;
   position: relative;
   top: -73px;
   left: 5px;
   color: var(--white);
   font-size: 3rem;
   font-weight: 800;
+
+  animation: fadeInFromRight linear;
+  animation-timeline: view();
+  animation-range-start: 1px;
+  animation-range-end: 400px;
 }
 
 @media screen and (max-width: 700px) {
@@ -38,5 +48,30 @@
     width: 100vw;
     margin-top: 5em;
     text-align: center;
+  }
+}
+
+/*Animations */
+
+@keyframes fadeInFromLeft {
+  from {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromRight {
+  from {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
   }
 }

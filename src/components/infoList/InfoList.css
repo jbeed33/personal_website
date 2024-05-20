@@ -16,6 +16,14 @@
   z-index: 40;
   align-items: center;
   gap: 4em;
+
+  opacity: 0;
+
+  animation: flyInFromLeft linear;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range-start: 200px;
+  animation-range-end: 500px;
 }
 
 .info-wrapper p {
@@ -109,5 +117,18 @@
   .info-wrapper p {
     text-align: start;
     width: 100%;
+  }
+}
+
+/*Animations */
+
+@keyframes flyInFromLeft {
+  from {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
   }
 }

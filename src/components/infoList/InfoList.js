@@ -18,7 +18,7 @@ function InfoList(props) {
         <div className="info-number">2</div>
         <p>
           Currently studying Computer Science at University of California
-          Riverside. Expecting to graduate next year.
+          Riverside. Expecting to graduate this June.
         </p>
       </div>
 

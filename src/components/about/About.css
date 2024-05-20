@@ -22,6 +22,11 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  animation: fadeIn linear;
+  animation-timeline: view();
+  animation-range-start: 1px;
+  animation-range-end: 500px;
 }
 
 #about-info-wrapper {
@@ -40,6 +45,11 @@
   border-radius: 6em;
   overflow: hidden;
   filter: drop-shadow(16px 16px 100px rgb(0, 0, 0));
+
+  animation: fadeIn linear;
+  animation-timeline: view();
+  animation-range-start: 10px;
+  animation-range-end: 1000px;
 }
 
 #about-image-wrapper img {
