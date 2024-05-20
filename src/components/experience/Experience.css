@@ -1,0 +1,136 @@
+#experience-container {
+  position: relative;
+  margin: auto;
+  width: 90vw;
+}
+
+.experience-checkpoint {
+  position: relative;
+  margin: 0 auto;
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+}
+
+.experience-checkpoint div {
+  border: 2px solid #fff;
+  border-radius: 1em;
+  padding: 1.5em;
+}
+
+.experience-checkpoint h1 {
+  font-size: 1.7rem;
+  color: var(--medium-blue);
+}
+
+.experience-checkpoint h3 {
+  color: #888;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+
+.experience-checkpoint p {
+  line-height: 27px;
+  color: #ccc;
+}
+
+.experience-checkpoint:nth-child(odd) {
+  border-left: 3px solid #888;
+  padding-left: 3em;
+  transform: translateX(17em);
+}
+
+.experience-checkpoint:nth-child(even) {
+  border-right: 3px solid #888;
+  padding-right: 3em;
+  transform: translateX(-20em);
+}
+
+.experience-checkpoint:nth-child(odd)::before,
+.experience-checkpoint:nth-child(even)::before {
+  content: " ";
+  background: #888;
+  width: 3em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.experience-checkpoint:nth-child(odd)::before {
+  left: 0;
+}
+
+.experience-checkpoint:nth-child(even)::before {
+  right: 0;
+}
+
+.experience-checkpoint:nth-child(odd) div::before,
+.experience-checkpoint:nth-child(even) div::before {
+  content: " ";
+  background: #fff;
+  /* box-shadow: 0 0 0.5em #ffffff; */
+  width: 0.8em;
+  height: 0.8em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.experience-checkpoint:nth-child(odd) div::before {
+  left: -0.5em;
+}
+
+.experience-checkpoint:nth-child(even) div::before {
+  right: -0.5em;
+}
+
+@media screen and (max-width: 1150px) {
+  #experience-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .experience-checkpoint:nth-child(odd) {
+    width: 100%;
+    transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .experience-checkpoint:nth-child(even) {
+    width: 100%;
+    transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .experience-checkpoint:nth-child(odd)::before,
+  .experience-checkpoint:nth-child(even)::before {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .experience-checkpoint:nth-child(odd) div::before,
+  .experience-checkpoint:nth-child(even) div::before {
+    top: 102%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .experience-checkpoint:last-child::before,
+  .experience-checkpoint:last-child::before,
+  .experience-checkpoint:last-child div::before,
+  .experience-checkpoint:last-child div::before {
+    display: none;
+  }
+}
