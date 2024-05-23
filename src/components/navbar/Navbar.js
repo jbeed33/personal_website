@@ -57,19 +57,37 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <Link
+                to="skills"
+                smooth={true}
+                duration={2000}
+                offset={1200}
+                className="nav-link"
+              >
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <Link
+                to="experience"
+                smooth={true}
+                duration={3000}
+                offset={1000}
+                className="nav-link"
+              >
                 Experience
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <Link
+                to="footer"
+                smooth={true}
+                duration={2000}
+                offset={800}
+                className="nav-link"
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
