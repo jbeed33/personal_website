@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Title from "../title/Title";
 import InfoList from "../infoList/InfoList";
 import "./About.css";

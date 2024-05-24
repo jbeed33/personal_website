@@ -20,7 +20,7 @@ function Hero() {
           I'm a<span className="hero-hilight-text"> Full Stack Developer</span>
         </h1>
       </div>
-      <img id="hero-img" src="images/HeroImage.jpg" alt="hero image" />
+      <img id="hero-img" src="images/HeroImage.jpg" alt="me looking down." />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function ProjectCard(props) {
   console.log(props);
   return (
     <div className="project-card">
-      <img style={positionStyle} src={props.image} />
+      <img style={positionStyle} src={props.image} alt={props.alt} />
 
       <div className="project-card-overlay">
         <h1 className="project-card-overlay-title">{props.title}</h1>
@@ -18,6 +18,7 @@ function ProjectCard(props) {
         </h2>
         <a
           target="_blank"
+          rel="noreferrer"
           className="project-card-overlay-link"
           href={props.link}
         >

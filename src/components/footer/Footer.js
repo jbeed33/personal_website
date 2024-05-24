@@ -12,16 +12,22 @@ function Footer() {
             <a
               className="footer-icon"
               target="_blank"
+              rel="noreferrer"
               href="http://www.linkedin.com/in/joshua-beed"
             >
               <p>Linkedin</p>
             </a>
-            <a target="_blank" href="https://github.com/jbeed33">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/jbeed33"
+            >
               <p>Github</p>
             </a>
             <a
               className="footer-icon"
               target="_blank"
+              rel="noreferrer"
               href="mailto: jbeed33@gmail.com"
             >
               <p>Email</p>
