@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   #about-image-wrapper {
     width: 80%;
     overflow: hidden;
@@ -91,12 +91,10 @@
     right: -30%;
   }
 
-  #about-resume {
-    margin: 200px auto;
-  }
-}
+ 
+} */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   #about {
     margin-bottom: 400px;
   }
@@ -109,5 +107,9 @@
     width: 80%;
     height: 400px;
     right: -10%;
+  }
+
+  #about-resume {
+    margin: 200px auto;
   }
 }
